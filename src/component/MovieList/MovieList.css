@@ -1,0 +1,20 @@
+.movie__list {
+  padding: 3rem;
+  background-color: black;
+}
+
+.list__title {
+  color: red;
+  margin: 1.3rem 0px;
+  text-align: center;
+}
+.list__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+  .movie__list {
+    width: 100%;
+    padding: 3rem 1rem;
+  }
+}

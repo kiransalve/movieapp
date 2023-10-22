@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  width: 100vw;
+  padding: 0 30px;
+}
+.headerLeft {
+  display: flex;
+  gap: 30px;
+}
+.header_logo {
+  color: red;
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+a {
+  text-decoration: none;
+}
+.headerLink:hover {
+  border-bottom: 1px solid red;
+}
+.headerLink {
+  font-weight: 800;
+  color: red;
+}
